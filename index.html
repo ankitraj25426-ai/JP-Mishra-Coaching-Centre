@@ -1,0 +1,179 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J. P. Mishra Coaching Centre | Best Education</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    :root { --primary: #ff512f; --secondary: #dd2476; --dark: #222; --light: #f4f6fb; }
+    body{margin:0;font-family:'Segoe UI', sans-serif;background:var(--light); color: #333; scroll-behavior: smooth;}
+    
+    /* Moving Notice */
+    .notice-bar {background: #ffeb3b; color: #000; padding: 10px; font-weight: bold; overflow: hidden; white-space: nowrap; border-bottom: 2px solid #333;}
+    .notice-bar span {display: inline-block; animation: scroll-left 15s linear infinite;}
+    @keyframes scroll-left { 0% { transform: translateX(100%); } 100% { transform: translateX(-100%); } }
+
+    header{background:linear-gradient(90deg, #00c6ff, #0072ff);color:#fff;padding:30px;text-align:center; box-shadow: 0 4px 15px rgba(0,0,0,0.2);}
+    header h1 { color: #fff; text-shadow: 2px 2px #000; font-size: 2.8rem; margin: 0;}
+
+    nav{background:var(--dark);display:flex;flex-wrap:wrap;justify-content:center;position: sticky; top: 0; z-index: 1000;}
+    nav a{color:#fff;padding:15px 20px;text-decoration:none;font-weight:bold; font-size: 14px; transition: 0.3s;}
+    nav a:hover{background:var(--primary);}
+    
+    section{padding:60px 20px; max-width: 1200px; margin: auto;}
+    
+    /* Hero Section with Achievement Image */
+    .hero{
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://i.ibb.co/hRtScy8v/1000278740.jpg'); 
+      background-size: cover; 
+      background-position: top center; 
+      color:#fff; 
+      text-align:center; 
+      padding: 150px 20px;
+    }
+    
+    .btn{background:#ffeb3b;color:#000;padding:12px 30px;border-radius:30px;text-decoration:none;font-weight:bold; display: inline-block; margin: 10px; transition: 0.3s;}
+    .btn:hover{transform: scale(1.05); background: #fff;}
+
+    h2{text-align:center;margin-bottom:40px; font-size: 2.5rem; text-transform: uppercase; font-weight: 800;}
+    .h-faculty { color: #ff512f; }
+    .h-facilities { color: #4facfe; }
+    .h-enquiry { color: #00b09b; }
+    .h-success { color: #f093fb; }
+    .h-contact { color: #ff0844; }
+
+    h2::after{content:''; width: 80px; height: 5px; background: currentColor; display: block; margin: 10px auto; border-radius: 10px;}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;}
+    .card{background:#fff;padding:25px;border-radius:15px;text-align:center;box-shadow:0 8px 20px rgba(0,0,0,0.05); transition: 0.3s;}
+    .card:hover{transform: translateY(-5px); box-shadow: 0 12px 25px rgba(0,0,0,0.1);}
+    
+    .feature-icon {font-size: 45px; margin-bottom: 15px;}
+    .faculty-card img {width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 5px solid #ff512f; margin-bottom: 15px;}
+    .exp-badge {background: #333; color: #ffeb3b; padding: 5px 15px; border-radius: 20px; font-size: 14px; font-weight: bold; display: inline-block; margin-bottom: 10px;}
+
+    .testimonial-card {text-align: left; border-left: 5px solid #f093fb; background: #fff;}
+    .student-name {display: block; margin-top: 10px; font-weight: bold; color: #5b86e5; font-size: 0.9rem;}
+
+    .contact-info p { font-size: 1.2rem; margin: 15px 0; }
+    .contact-info i { margin-right: 10px; color: #ff0844; }
+
+    footer{background:#000;color:#ccc;text-align:center;padding:40px 20px;}
+    .dev-credit {color: #ffeb3b; font-weight: bold; text-decoration: none; display: block; margin-top: 15px;}
+
+    .fixed-contact {position: fixed; bottom: 20px; left: 20px; z-index: 1000; display: flex; flex-direction: column; gap: 10px;}
+    .call-btn {background: #007bff; color: white; width: 55px; height: 55px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 22px; box-shadow: 2px 4px 10px rgba(0,0,0,0.3); text-decoration: none;}
+    .whatsapp-float{background:#25D366;color:#fff;width: 60px; height: 60px; border-radius:50%; display: flex; align-items: center; justify-content: center; font-size: 30px; text-decoration:none; box-shadow: 2px 4px 10px rgba(0,0,0,0.3);}
+  </style>
+</head>
+<body>
+
+<div class="notice-bar">
+  <span>⚡ New Admission Open (2026-27) | अनाथ बच्चों के लिए निशुल्क शिक्षा (FREE EDUCATION FOR ORPHANS) | Special New Batches from Jan 5th ⚡</span>
+</div>
+
+<header>
+  <h1>J. P. MISHRA COACHING CENTRE</h1>
+  <p>Your Journey to Success Starts Here</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#faculty">Faculty</a>
+  <a href="#facilities">Facilities</a>
+  <a href="#admission">Admission</a>
+  <a href="#achievement">Success Stories</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+  <h1 style="font-size: 3.5rem; text-shadow: 3px 3px 10px #000;">Shaping Bright Futures</h1>
+  <p style="font-size: 1.5rem; text-shadow: 2px 2px 5px #000;">Expert Guidance for JAC & Bihar Board Exams</p>
+  <a class="btn" href="#admission">Join Now</a>
+</section>
+
+<section id="faculty">
+  <h2 class="h-faculty">Meet Our Faculty</h2>
+  <div class="grid">
+    <div class="card faculty-card">
+      <img src="https://i.ibb.co/sdScyvvC/1000278663.jpg" alt="J. P. Mishra Sir">
+      <div class="exp-badge">30+ Years Experience</div>
+      <h3 style="color:#ff512f;">J. P. Mishra Sir</h3>
+      <p><b>Director & Senior Teacher</b></p>
+      <span>Expert in Mathematics & Physics. Teaching since decades with a record of producing toppers.</span>
+    </div>
+    <div class="card faculty-card">
+      <img src="https://i.ibb.co/v44X98V0/1000278872.jpg" alt="Amit Sir">
+      <div class="exp-badge">10+ Years Experience</div>
+      <h3 style="color:#ff512f;">Amit Sir</h3>
+      <p><b>Subject Expert</b></p>
+      <span>Specialist in English & Social Studies. Known for his unique teaching style.</span>
+    </div>
+  </div>
+</section>
+
+<section id="facilities">
+  <h2 class="h-facilities">Our Facilities</h2>
+  <div class="grid">
+    <div class="card">
+      <i class="fas fa-home feature-icon" style="color:#ff9800;"></i>
+      <h3>लॉज की सुविधा</h3>
+      <p>9th, 10th और 12th के लड़कों के लिए उत्तम लॉज की व्यवस्था।</p>
+    </div>
+    <div class="card" style="border: 2px solid gold;">
+      <i class="fas fa-heart feature-icon" style="color:#e91e63;"></i>
+      <h3>निशुल्क शिक्षा</h3>
+      <p>अनाथ बच्चों के लिए पूरी तरह से फ्री शिक्षा दी जाती है।</p>
+    </div>
+    <div class="card">
+      <i class="fas fa-book feature-icon" style="color:#00b09b;"></i>
+      <h3>NCERT तैयारी</h3>
+      <p>7th to 10th के बच्चों को NCERT किताबों से विशेष तैयारी।</p>
+    </div>
+  </div>
+</section>
+
+<section id="achievement">
+  <h2 class="h-success">Success Stories </h2>
+  <div class="grid">
+    <div class="card testimonial-card">"Best results every year." <span class="student-name">- Rahul Kumar (445/500)</span></div>
+    <div class="card testimonial-card">"Teachers are experts." <span class="student-name">- Priya Kumari (462/500)</span></div>
+    <div class="card testimonial-card">"Cleared all my doubts." <span class="student-name">- Ankit Verma (458/500)</span></div>
+    <div class="card testimonial-card">"Regular test series." <span class="student-name">- Pooja Rani (440/500)</span></div>
+    <div class="card testimonial-card">"Excellent notes." <span class="student-name">- Vikram Sah (441/500)</span></div>
+    <div class="card testimonial-card">"Best for JAC board." <span class="student-name">- Aarti Pandit (452/500)</span></div>
+    <div class="card testimonial-card">"Physics made easy." <span class="student-name">- Md. Sahil (410/500)</span></div>
+    <div class="card testimonial-card">"Great discipline." <span class="student-name">- Sunny Singh (435/500)</span></div>
+    <div class="card testimonial-card">"Highly recommended." <span class="student-name">- Neha Sharma (438/500)</span></div>
+    <div class="card testimonial-card">"Concept building." <span class="student-name">- Soni Kumari (430/500)</span></div>
+    <div class="card testimonial-card">"Math specialists." <span class="student-name">- Megha Das (428/500)</span></div>
+    <div class="card testimonial-card">"Life changing prep." <span class="student-name">- Rohit Jha (415/500)</span></div>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="h-contact">Contact Details</h2>
+  <div class="contact-info" style="text-align: center;">
+    <p><i class="fas fa-map-marker-alt"></i> <b>Address:</b> Bahoriya, Godda City, Jharkhand - 814133</p>
+    <p><i class="fas fa-phone-alt"></i> <b>Call Us:</b> 7255884972, 6201250352</p>
+    <p><i class="fas fa-envelope"></i> <b>Email:</b> jpmishracoaching@gmail.com</p>
+  </div>
+  <div style="font-size: 30px; margin-top: 30px; text-align: center;">
+    <a href="https://www.facebook.com/share/164hNTTVgj/" style="color:#1877F2; margin: 0 15px;"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/amitsir78?igsh=cWZkZXFqZ2t1czB2" style="color:#E4405F; margin: 0 15px;"><i class="fab fa-instagram"></i></a>
+    <a href="https://youtube.com/@jpmishraclassesandmotivation?si=ya0IW4v32ZjsvSEj" style="color:#FF0000; margin: 0 15px;"><i class="fab fa-youtube"></i></a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 J. P. Mishra Coaching Centre | Dedicated to Excellence</p>
+  <a href="#" class="dev-credit">Website developed by J.P. Mishra Coaching's Student:- Ankit_yt</a>
+</footer>
+
+<div class="fixed-contact">
+  <a href="tel:7255884972" class="call-btn"><i class="fas fa-phone"></i></a>
+  <a href="https://wa.me/917255884972" class="whatsapp-float" target="_blank"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+</body>
+</html>
